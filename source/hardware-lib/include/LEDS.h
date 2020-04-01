@@ -81,6 +81,9 @@ bool LED_VentilatorStatus(bool on);
 //! red continuously lit LED = Very High Priority (no ventillation)
 //! red flashing LED illumination = High Priority (compromised ventilation)
 //!
+//! SFSYST22: The software must light on in a blinking way the high 
+//! priority alarm Red Led at 2 Hz, when a high priority alarm is activated.
+//! 
 //! \param on   true to turn on LED via GPIO; false to turn LED indicator off.
 //!
 //! \retval     true    LED indicator is on
@@ -91,7 +94,13 @@ bool LED_HighPriorityAlarm(bool on);
 //!
 //! Yellow LED indicates active medium priority alarms (Ventilation not immediately 
 //! affected, but could harm patient if left uncorrected).
-//! 
+//!
+//! SFSYST21.2: The software must light on in a blinking way the medium priority alarm 
+//! Yellow Led at 0.5 Hz, when a medium priority alarm is activated.
+//!
+//! SFSYST21.3: The software shall activate a solid Yellow LED light, when a low 
+//! priority alarm is activated.
+//!
 //! \param on   true to turn on LED via GPIO; false to turn LED indicator off.
 //!
 //! \retval     true    LED indicator is on
