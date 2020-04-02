@@ -4,18 +4,54 @@ IDENTIFICATION
 Document Overview
 -----------------
 
-This document contains the projet management plan of the Open Ventilator Project.
+The purpose of this document is to provide a project management framework for 
+the Open Ventilator Project (OVP).  This document lays out how the project will be managed, monitored
+and controlled throughout the project lifecycle.
+
+The scope of this plan is to provide an overview of the project and to
+describe the approach that will be employed to manage the project.  
+
+Document Revisions
+------------------
+
+The Project Manager will maintain this plan as part of the normal maintenance and
+operations activities conducted for the project.  When changes occur, the version number will be 
+updated to the next increment as well as the revision date and change description. 
+Lastly, notification of plan changes will follow the plan implementation procedures.
+
++--------+------------+--------------------+-------------------------------------------------------+
+| REV    | Date       | Author             | Document Revision notes                               |
++========+============+====================+=======================================================+
+| 0.0.0  | 2 APR 2020 | Joe Turner         | Initial draft based on Cyrille Michaud's              |
+|        |            |                    | specification template.                               |
++--------+------------+--------------------+-------------------------------------------------------+
 
 Abbreviations and Glossary
 --------------------------
 
 Abbreviations
 ^^^^^^^^^^^^^
-Add abbreviations here
+
+.. glossary::
+
+   FDA
+        U.S. Food and Drug Administration
+        
+   OPV
+        Open Ventilator Project.  Open Source project to create a modular, well tested
+        software and hardware solution as a pathway to a certified ventilator for
+        professional medical use.
 
 Glossary
 ^^^^^^^^
-Add definitions here
+
+.. glossary::
+
+   COVID-19
+        COVID-19 is the official name given by the World Health Organization on 
+        February 11, 2020, for the disease caused by the novel coronavirus SARS-CoV-2.
+        Also referred to as Severe Acute Respiratory Syndrom Crononavirus 2 (SARS-CoV-2).
+
 
 References
 ----------

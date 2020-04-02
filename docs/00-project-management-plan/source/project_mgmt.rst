@@ -5,30 +5,20 @@ the corresponding responsibilities and the flows of internal information.
 
 Team Responsibilities
 ---------------------
-The organizational structure is:
+The current organizational structure is:
 
 
 +-------------------+--------------------+-------------------------------------------------------+
 | Title             | Name               | Responsibilities                                      |
 +===================+====================+=======================================================+
 | Project Manager   | Joe Turner         | Manages the cost, quality and schedule of the project,|
-|                   |                    | manages relationships with end users... TDB           |
+|                   |                    | manages relationships with end users.                 |
 +-------------------+--------------------+-------------------------------------------------------+
-
 
 Work breakdown structure, tasks, planning
 -----------------------------------------
 
-Tasks of the project are described in the table below.
-
-Task n
-^^^^^^
-TBD, sub-section for each major task with:
-- inputs of the task
-- content of the task
-- output of the task
-- task reviews 
-Otherwise, the software development plan document may be referenced instead.
+Major tasks of the project should be described here.
 
 Resource identification
 -----------------------
@@ -40,34 +30,33 @@ Relationships with project stakeholders
 
 Customer or end-user involvement
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Describe how the customer or end-user is involved in the software development: meetings, 
-reviews, and presentations of intermediate versions 
+Customer/end-user involvment will be limited until a viable product is developed.  In 
+the last stages, end-users will be engaged to refine the product.
 
 Subcontractor Management
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Describe how subcontractors are managed: statement of work, reviews, validation, verification 
+In the early phases of this project, there will not be any subcontractor involvement.
+In later phases, relationships will be established with contract manufacturing 
+sites which will be managed with industry standard statements of work, reviews, 
+assembly procedures, test procedures, etc.
 
 Relationships with other teams
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Describe relationships with other teams of your company, like the team in charge of 
-the system design
+Currently there are no other teams.  This will change if others start contributing to
+the project.
 
 Communication
 -------------
 
 Meetings
 ^^^^^^^^
-Describe what kinds of meetings are organized during the project and what happens in 
-these meeting. This may be described in your quality management system. In this 
-case, this section is not necessary.
+Meetings may be held in person or online.  When possible, and if there are any decisions 
+or discussions of importance to the project, meeting minutes should be recorded and 
+saved and appended into either github or as a document in the git repository.
 
 Reviews
 ^^^^^^^
-Describe what kinds of reviews are organized during the project: launch review, 
-design reviews, tests reviews and what happens in these reviews. This may be 
-described in your quality management system. In this case, this section is 
-not necessary
+- Code reviews will take place with every pull request.
+- Hardware design reviews will take place during the hardware design phase.
+- Test reviews will take place at the appropriate times.
 
-Training
-^^^^^^^^
-Describe training of people involved in the project, if necessary.

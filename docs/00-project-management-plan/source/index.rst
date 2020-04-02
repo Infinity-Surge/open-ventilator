@@ -7,10 +7,12 @@ Welcome to OPV Project Management's documentation!
 ==================================================
 
 .. toctree::
+   :numbered:
    :maxdepth: 3
    :caption: Contents:
 
    id.rst
+   introduction.rst
    project_mgmt.rst
    system_requirements.rst
    configuration_mgmt.rst
@@ -18,9 +20,4 @@ Welcome to OPV Project Management's documentation!
    testing_phases.rst
    resolution.rst
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

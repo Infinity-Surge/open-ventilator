@@ -7,7 +7,8 @@ Welcome to OVP Risk Management Plan's documentation!
 ====================================================
 
 .. toctree::
-   :maxdepth: 2
+   :numbered:
+   :maxdepth: 3
    :caption: Contents:
 
    introduction.rst
