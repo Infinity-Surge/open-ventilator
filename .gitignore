@@ -12,3 +12,4 @@ _deps
 
 # Mac OS cruft
 .DS_Store
+html/
