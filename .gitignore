@@ -12,4 +12,7 @@ _deps
 
 # Mac OS cruft
 .DS_Store
+
+# ignore generated directories
 html/
+build/
