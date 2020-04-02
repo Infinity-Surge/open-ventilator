@@ -10,7 +10,10 @@ Welcome to OVP Risk Management Plan's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   introduction.rst
+   software_dev.rst
+   risk_after.rst
+   ranking_system.rst
 
 Indices and tables
 ==================
