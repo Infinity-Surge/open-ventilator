@@ -37,7 +37,7 @@ to control the operation of an open-source ventilator.
 
 The software is broken up into the following directories:
 
-- hardware library.  This contains GPIO pin assigments, ADC processing, LED indicators,
+- \ref hardwarelib.  This contains GPIO pin assigments, ADC processing, LED indicators,
 buzzers and lower-level hardware code.  The idea is that moving the software to a 
 different MCU/Microprocessor would only require modifying this code, while leaving
 the higher level application alone.
