@@ -13,6 +13,7 @@ _deps
 # Mac OS cruft
 .DS_Store
 
-# ignore generated directories
+# ignore generated directories (and other cruft)
 html/
 build/
+.vscode/
