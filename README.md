@@ -11,7 +11,23 @@ The aim of this project is three-fold:
 2) design and build ventilator hardware; and
 3) build and submit a low-cost ventilator to the FDA for clearance.
 
+# Design Components/Initiatives
+
+This project can be broken up conceptually into the following major initiatives:
+
+- Hardware design and testing
+- Software design and testing
+- Mechanical design and production
+- Documentation and Project Management
+
+## Documentation and Project Management
+
+The FDA requires a lot of documentation throughout the lifecycle of a medical device.  In order to facilitate this, a considerable amount of effort needs to be expended on documentation.
+
+While most medical device companies use Microsoft Word documents that are singularly edited and reviewed, then added to a Quality Management System, we are utilizing git as our QMS.  Documents are generated and build like code.  We are using sphinx to generate documents.  All changes, revisions, and edits are captured in the git history.  As a result, the FDA and regulatory bodies will have complete transparency and traceability throughout the lifecycle, much more than with a traditional medical device maker.
+
 ## Hardware
+
 The current envisioned control hardware is envisioned to be a modular system, comprised of
 several electrical boards.  Each board will be designed for testing, and ease of replacement
 in the field.
@@ -22,12 +38,12 @@ board is also responsible for charging a battery, monitoring the battery, and sw
 to the battery in the event of power loss.  Inputs/Outputs: 120V AC, 12V DC, Battery, 
 (GPIO lines: Power failure for 3.3V, 5V, and 10V, battery charging, and AC power).
 
-*Annunciator board*.  The Annunciator/Alarm/Buzzer board is reponsible for producing the 
-required alarm sounds/ringers to alert medical personel of issues requiring 
+*Annunciator board*.  The Annunciator/Alarm/Buzzer board is responsible for producing the 
+required alarm sounds/ringers to alert medical personnel of issues requiring 
 intervention.
 
 *CPU/Controller Mainboard*.  The CPU/Controller board is responsible for implementing
-the control functions, responding to user stimulous, responding to sensors, measuring 
+the control functions, responding to user stimulus, responding to sensors, measuring 
 pressures, calculating values, and commanding the turbine.
 
 ## Software
@@ -76,10 +92,10 @@ software.  This may or may not be implemented in QEMU.  This could be used as a
 reference for other implementors.
 
 *Ventilator library.*  This library provides higher layer level control functions, state machines,
-and other code required to manage the complity required to implement a modern
+and other code required to manage the complexity required to implement a modern
 mechanical ventilator.
 
-Unit tests.  Where it makes sense, unit tests will test individual functions and higher
+*Unit tests.*  Where it makes sense, unit tests will test individual functions and higher
 level functionality.
 
 ## Mechanical
