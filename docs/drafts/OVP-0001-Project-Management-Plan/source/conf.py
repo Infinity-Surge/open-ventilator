@@ -133,7 +133,7 @@ atex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OVPProjectManagement.tex', u'Open Ventilator Project (OPV) Project Management Documentation',
+    (master_doc, 'OVP-0001-Project-Management-Plan.tex', u'Open Ventilator Project (OPV) Project Management Plan',
      u'Joe Turner', 'manual'),
 ]
 
