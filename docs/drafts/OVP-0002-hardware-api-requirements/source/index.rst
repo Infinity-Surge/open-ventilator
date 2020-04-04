@@ -10,6 +10,7 @@ Welcome to OVP Hardware API Requirements's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   gpio.rst
 
 
 Indices and tables

@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OVPHardwareAPIRequirements.tex', u'OVP Hardware API Requirements Documentation',
+    (master_doc, 'OVP-0002-Hardware-API-Requirements.tex', u'OVP Hardware API Requirements Documentation',
      u'Joe Turner', 'manual'),
 ]
 
