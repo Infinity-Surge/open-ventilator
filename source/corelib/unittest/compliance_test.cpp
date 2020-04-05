@@ -22,6 +22,7 @@ public:
     // Calculate the static compliance given the following:
     // FiO2: .60, Rate: 12 bpm, Peak Pressure: 38 cmH2O,
     // Plateau Pressure: 29 cmH2O, Vt: 600mL, PEEP: +5 cmH2O
+    // \todo Add negative test case and bad parameters.
     void test_static_compliance()
     {
         double expected = 25; // 25mL/cmH2O
@@ -33,6 +34,7 @@ public:
     // Calculate the static compliance given the following:
     // FiO2: .60, Rate: 12 bpm, Peak Pressure: 38 cmH2O,
     // Plateau Pressure: 29 cmH2O, Vt: 600mL, PEEP: +5 cmH2O
+    // \todo Add negative test case and bad parameters.
     void test_dynamic_compliance()
     {
         double expected = 18.18; // 25mL/cmH2O
