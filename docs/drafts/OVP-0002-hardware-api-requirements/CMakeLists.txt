@@ -1,7 +1,7 @@
 set(SPHINX_SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/source)
 set(SPHINX_BUILD ${CMAKE_CURRENT_BINARY_DIR})
 
-add_custom_target(SphinxOVP001 ALL
+add_custom_target(SphinxOVP002 ALL
                   COMMAND
                   ${SPHINX_EXECUTABLE} -M latexpdf
                   ${SPHINX_SOURCE} ${SPHINX_BUILD}
