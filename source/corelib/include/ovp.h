@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-only
 /**
  *  @file   ovp.h
  *  @brief  Open Ventilator Project documentation
@@ -12,16 +13,6 @@
 #pragma once
 
 /*! \mainpage Introduction
-
-On March 30, 2020, Medtronic released the engineering requirements, schematics and 
-information regarding the BP560 ventilator to the public.  With much fan-fare, they
-released what was hoped would be something that would jump start the production of
-ventilators required to keep covid-19 patients alive.  With a great deal of
-excitement, many engineers quickly downloaded the information.
-
-However, the excitement soon died, as there was no software or source code 
-released.  As a result, the end user could not actually build a usable ventilator 
-and submit a ventilator for FDA approval.
 
 To build a ventilator requires a myriad of disciplines: mechanical engineering, 
 electrical engineering, QA, legal, and software engineering.
@@ -61,7 +52,38 @@ the higher level application alone.
  * this global namespace to reduce name conflicts.
  * 
  */
-namespace ovp
-{
+namespace ovp {
+
+/**
+ * \brief Hardware Implementation Namespace
+ * 
+ * This namespace contains the implementation of any hardware 
+ * control or access code.  All implementation details or hardware
+ * specific addressing, ports, general purpose I/O area implemented
+ * in this namespace.
+ * 
+ * This namespace will contain all hardware specific implementation
+ * details, effectively creating a defined API to make this 
+ * code more readily portable to other architectures and/or 
+ * hardware implementations.
+ */
+namespace hardware {
 
 }
+
+/**
+ * \brief Mathematical calculations, formulas, equates, and definitions
+ * 
+ * This namespace contains the implementation of standard equations,
+ * defines, equates, and constants.
+ */
+namespace math {
+
+}
+}
+
+/*! \page hardwarelib Hardware Library
+This page introduces the user to the topic.
+Now you can proceed to the \ref advanced "advanced section".
+
+*/

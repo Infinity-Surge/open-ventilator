@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Open Ventilator Project (OPV) Management'
+project = u'OVP Hardware API Requirements'
 copyright = u'2020, Joe Turner'
 author = u'Joe Turner'
 
 # The short X.Y version
-version = u'0.0'
+version = u'0.1'
 # The full version, including alpha/beta/rc tags
-release = u'0.0-draft'
+release = u'0.1-draft'
 
 
 # -- General configuration ---------------------------------------------------
@@ -39,7 +39,6 @@ release = u'0.0-draft'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.imgmath',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -102,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OVPProjectManagementdoc'
+htmlhelp_basename = 'OVPHardwareAPIRequirementsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -125,15 +124,11 @@ latex_elements = {
     # 'figure_align': 'htbp',
 }
 
-atex_elements = {
-    'babel':'\\usepackage[shorthands=off]{babel}',
-}
-
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OVPProjectManagement.tex', u'Open Ventilator Project (OPV) Project Management Documentation',
+    (master_doc, 'OVP-0002-Hardware-API-Requirements.tex', u'OVP Hardware API Requirements Documentation',
      u'Joe Turner', 'manual'),
 ]
 
@@ -143,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'OVPprojectmanagement', u'OVP Project Management Documentation',
+    (master_doc, 'ovphardwareapirequirements', u'OVP Hardware API Requirements Documentation',
      [author], 1)
 ]
 
@@ -154,8 +149,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OVPProjectManagement', u'Open Ventilator Project (OPV) Project Management Documentation',
-     author, 'OVPProjectManagement', 'One line description of project.',
+    (master_doc, 'OVPHardwareAPIRequirements', u'OVP Hardware API Requirements Documentation',
+     author, 'OVPHardwareAPIRequirements', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -176,6 +171,3 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-
-# -- Extension configuration -------------------------------------------------

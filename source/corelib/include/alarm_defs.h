@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-only
 /**
  *  @file   alarm_defs.h
  *  @brief  Ventilator Alarm Definitions
