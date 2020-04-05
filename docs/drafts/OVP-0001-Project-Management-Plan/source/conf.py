@@ -24,9 +24,9 @@ copyright = u'2020, Joe Turner'
 author = u'Joe Turner'
 
 # The short X.Y version
-version = u'0.0'
+version = u'0.1'
 # The full version, including alpha/beta/rc tags
-release = u'0.0-draft'
+release = u'0.1-draft'
 
 
 # -- General configuration ---------------------------------------------------
