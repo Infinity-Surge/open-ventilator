@@ -52,7 +52,38 @@ the higher level application alone.
  * this global namespace to reduce name conflicts.
  * 
  */
-namespace ovp
-{
+namespace ovp {
+
+/**
+ * \brief Hardware Implementation Namespace
+ * 
+ * This namespace contains the implementation of any hardware 
+ * control or access code.  All implementation details or hardware
+ * specific addressing, ports, general purpose I/O area implemented
+ * in this namespace.
+ * 
+ * This namespace will contain all hardware specific implementation
+ * details, effectively creating a defined API to make this 
+ * code more readily portable to other architectures and/or 
+ * hardware implementations.
+ */
+namespace hardware {
 
 }
+
+/**
+ * \brief Mathematical calculations, formulas, equates, and definitions
+ * 
+ * This namespace contains the implementation of standard equations,
+ * defines, equates, and constants.
+ */
+namespace math {
+
+}
+}
+
+/*! \page hardwarelib Hardware Library
+This page introduces the user to the topic.
+Now you can proceed to the \ref advanced "advanced section".
+
+*/
