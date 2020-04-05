@@ -10,5 +10,7 @@ add_executable(core_unit_tests ${UNIT_TEST} )
 
 # Link this executable.
 target_link_libraries (core_unit_tests ${CPPUNIT_LIBRARIES} ${UnitTestLibs})
-
+target_include_directories(core_unit_tests PUBLIC
+  ../include/
+)
 add_test(core_unit_tests core_unit_tests)

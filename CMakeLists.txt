@@ -13,6 +13,11 @@ project(OpenVentilator
 
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
+# Set to c++ 11
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+
 find_package(CppUnit REQUIRED)
 include_directories(${CPPUNIT_INCLUDE_DIR})
 
