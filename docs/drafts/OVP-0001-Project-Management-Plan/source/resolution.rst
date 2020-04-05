@@ -1,9 +1,6 @@
-Problem resolution
+Problem Resolution
 ===================
-Describe here how bugs, requests, questions … anything coming 
-from anyone outside the software development team. Especially 
-for bugs, how they are recorded, tracked, fixed.
 
-It may be also described in your quality management system procedures. 
-In this case, this section is not useful.
+During initial development, bugs and feature requests will be submitted and tracked through GitHub Issues.  Issues will be prioritized and assigned to developers.
 
+As the initial design and development phase ends, this will be revisited.
