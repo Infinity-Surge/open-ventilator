@@ -7,15 +7,10 @@ Welcome to OVP Hardware API Requirements's documentation!
 =========================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
+   identification.rst
+   introduction.rst
    gpio.rst
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
