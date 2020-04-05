@@ -14,16 +14,6 @@
 
 /*! \mainpage Introduction
 
-On March 30, 2020, Medtronic released the engineering requirements, schematics and 
-information regarding the BP560 ventilator to the public.  With much fan-fare, they
-released what was hoped would be something that would jump start the production of
-ventilators required to keep covid-19 patients alive.  With a great deal of
-excitement, many engineers quickly downloaded the information.
-
-However, the excitement soon died, as there was no software or source code 
-released.  As a result, the end user could not actually build a usable ventilator 
-and submit a ventilator for FDA approval.
-
 To build a ventilator requires a myriad of disciplines: mechanical engineering, 
 electrical engineering, QA, legal, and software engineering.
 
