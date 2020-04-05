@@ -11,6 +11,7 @@ project(OpenVentilator
     DESCRIPTION "Open Ventilator Project"
     LANGUAGES CXX)
 
+# Add the cmake folder so the FindXXX module can be found
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
 # Set to c++ 11
@@ -24,4 +25,6 @@ include_directories(${CPPUNIT_INCLUDE_DIR})
 ENABLE_TESTING()
 
 add_subdirectory(source)
+
+add_subdirectory(docs)
 
