@@ -1,11 +1,16 @@
 Input/Output
 ============
 
+Regardless of the MCU chosen, the following inputs, outputs, analog outputs, 
+analog inputs, PWM outputs will need to be included in the hardware design
+in order to produce a minimum viable product.
+
 Power Supply Monitoring
 -----------------------
 
 The hardware shall provide a method of monitoring power supply faults,
-monitoring AC or DC usage.
+monitoring AC or DC usage.  This is subject to change, based on the power 
+requirements of the MCU, sensors, and required devices:
 
 +-----+-------------------+----------------------------------------------------------+
 + I/O | NAME              | DESCRIPTION                                              |
@@ -29,32 +34,29 @@ LED Indicators
 The device has several LED indicators.  These may be driven directly by hardware.
 If that is the case, any corresponding API function should be stubbed out.
 
-+-----+-------------------+----------------------------------------------------------+
-+ I/O | NAME              | DESCRIPTION                                              |
-+=====+===================+==========================================================+
-|  O  | LED_DC_PRESENCE   | When asserted, indicates that the unit is operating      |
-|     |                   | from DC power source.                                    |
-+-----+-------------------+----------------------------------------------------------+
-|  O  | LED_AC_PRESENCE   | When asserted, this indicates that the device is         |
-|     |                   | operating from AC power.                                 |
-+-----+-------------------+----------------------------------------------------------+
-|  O  | LED_BATTERY_STATUS| When asserted, this indicates that unit is operating     |
-|     |                   | from battery.  Flashing indicates charging               |
-+-----+-------------------+----------------------------------------------------------+
-|  O  | LED_O2            | O2 is active when asserted                               |
-+-----+-------------------+----------------------------------------------------------+
-|  O  | LED_VENTIL        | When asserted, this indicates that ventilation is        |
-|     |                   | active (on).                                             |
-+-----+-------------------+----------------------------------------------------------+
-|  O  | LED_AL_R          | RED LED indicates active high priority alarm.            |
-|     |                   | Continuously lit means Very High Priority (no            |
-|     |                   | Ventilation); Flashing at 2Hz is High Priority alarm     |
-|     |                   | (compromised ventilation).                               |
-+-----+-------------------+----------------------------------------------------------+
-|  O  | LED_AL_Y          | YELLOW LED indicates active medium priority alarm.       |
-|     |                   | Continuously lit means Low Priority alarm.               |
-|     |                   | Flashing at .5Hz is Medium Priority alarm                |
-+-----+-------------------+----------------------------------------------------------+
++-----+--------------------+-----------------------------------------+
+| I/O | NAME               | DESCRIPTION                             |
++=====+====================+=========================================+
+|  O  | LED_DC             | When asserted, indicates that the unit  | 
+|     |                    | is operating from DC power source.      |
++-----+--------------------+-----------------------------------------+
+|  O  | LED_AC             | When asserted, this indicates that the  |
+|     |                    | device is operating from AC power.      |
++-----+--------------------+-----------------------------------------+
+|  O  | LED_BAT            | Indicates operation from battery or     |
+|     |                    | charging.                               |
++-----+--------------------+-----------------------------------------+
+|  O  | LED_O2             | O2 is active when asserted              |
++-----+--------------------+-----------------------------------------+
+|  O  | LED_VENT           | When asserted, this indicates that      |
+|     |                    | ventilation is active (on).             |
++-----+--------------------+-----------------------------------------+
+|  O  | LED_AL_H           | RED LED indicates active high priority  |
+|     |                    | alarm.                                  |
++-----+--------------------+-----------------------------------------+
+|  O  | LED_AL_M           | YELLOW LED indicates active medium      |
+|     |                    | priority alarm.                         |
++-----+--------------------+-----------------------------------------+
 
 Temperature Sensors
 -------------------
