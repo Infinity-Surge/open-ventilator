@@ -3,6 +3,4 @@
 #
 # Copyright (C) 2020  RxJet Incorporated
 
-add_subdirectory(vmath)
-add_subdirectory(hardware-lib)
-add_subdirectory(corelib)
+ADD_SUBDIRECTORY( unittest )
