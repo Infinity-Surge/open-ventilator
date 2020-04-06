@@ -18,6 +18,14 @@ set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Build documentation option
+# 
+# This option will build the html documentation and doxygen
+# documentation
+#
+# usage: cmake -DBUILD_DOCS=ON ..
+#  
+option(BUILD_DOCS "Build the documentation" OFF)
 
 find_package(CppUnit REQUIRED)
 include_directories(${CPPUNIT_INCLUDE_DIR})
