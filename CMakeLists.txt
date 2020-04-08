@@ -32,6 +32,7 @@ include_directories(${CPPUNIT_INCLUDE_DIR})
 
 ENABLE_TESTING()
 
+add_subdirectory(medlib)
 add_subdirectory(source)
 
 add_subdirectory(docs)
