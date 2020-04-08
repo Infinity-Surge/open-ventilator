@@ -1,0 +1,3 @@
+[submodule "medlib"]
+	path = medlib
+	url = git@github.com:RxJet/medlib.git
